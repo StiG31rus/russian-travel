@@ -4,14 +4,13 @@
     font-size: 72px;
     line-height: 76px;
     margin: 0;
-    z-index: 1;
   }
   
   @media screen and (max-width: 880px) {
     .place__title {
       font-size: 42px;
       line-height: 46px;
-      width: 330px;
+      max-width: 320px;
     }
   }
   
@@ -19,7 +18,11 @@
     .place__title {
       font-size: 32px;
       line-height: 35px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .place__title {
       padding-left: 16px;
-      width: 300px;
     }
   }

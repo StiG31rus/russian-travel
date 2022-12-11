@@ -18,6 +18,8 @@
   
   @media screen and (max-width: 400px) {
     .place {
+      display: flex;
+      flex-direction: column;
       grid-gap: 32px;
     }
   }
