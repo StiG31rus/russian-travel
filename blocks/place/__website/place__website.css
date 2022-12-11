@@ -1,15 +1,15 @@
 .place__website {
-    align-self: end;
-  }
+  align-self: end;
+}
   
-  @media screen and (max-width: 400px) {
-    .place__website {
-      align-self: start;
-    }
+@media screen and (max-width: 400px) {
+  .place__website {
+    align-self: start;
   }
+}
 
-  @media screen and (max-width: 320px) {
-    .place__website {
-      margin-left: 16px;
-    }
+@media screen and (max-width: 320px) {
+  .place__website {
+    margin-left: 16px;
   }
+}
