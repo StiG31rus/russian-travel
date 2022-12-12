@@ -6,15 +6,16 @@
   gap: 80px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1150px) {
   .places {
     width: calc(100% - 96px);
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 880px) {
   .places {
     width: calc(100% - 48px);
+    margin-top: 88px;
     gap: 73px;
   }
 }
@@ -22,6 +23,7 @@
 @media screen and (max-width: 320px) {
   .places {
     width: 100%;
+    margin-top: 64px;
     gap: 50px;
   }
 }

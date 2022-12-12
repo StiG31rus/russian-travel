@@ -1,22 +1,23 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 48px 40px;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 48px 40px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1150px) {
   .place {
     grid-gap: 48px 32px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 880px) {
   .place {
     grid-gap: 48px 28px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 680px) {
   .place {
     display: flex;
     flex-direction: column;
